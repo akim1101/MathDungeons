@@ -1,0 +1,54 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	bitcell: {
+		file: bitcell.fnt
+		scaledSize: -1
+		markupEnabled: false
+		flip: false
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	RGBA_255_255_255_255: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: btn
+		down: btn
+		over: btn
+		focused: btn
+		disabled: btn
+		checked: btn
+		checkedOver: btn
+		checkedDown: btn
+		checkedFocused: btn
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: bitcell
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_255_255_255_255
+		overFontColor: RGBA_255_255_255_255
+		focusedFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedDownFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		checkedFocusedFontColor: RGBA_255_255_255_255
+		up: btn
+		down: btn
+		over: btn
+		focused: btn
+		disabled: btn
+		checked: btn
+		checkedOver: btn
+		checkedDown: btn
+		checkedFocused: btn
+	}
+}
+}

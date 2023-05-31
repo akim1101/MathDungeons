@@ -5,6 +5,7 @@ import android.os.Bundle;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.akimrobot.mathdungeons.MyGame;
+import com.badlogic.gdx.backends.android.AndroidGraphics;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override

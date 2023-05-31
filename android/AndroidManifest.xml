@@ -12,6 +12,7 @@
         android:isGame="true"
         android:appCategory="game"
         android:label="@string/app_name"
+        android:testOnly="false"
         tools:ignore="UnusedAttribute">
         <activity
             android:name="com.akimrobot.mathdungeons.AndroidLauncher"
